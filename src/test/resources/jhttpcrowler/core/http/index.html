@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>HTML Title</title>
+    <script src="script/jquery-1.6.4.min.js"></script>
+</head>
+<body>
+<div id="body-div">
+    <div id="header">
+        <a id="siteLogo" href="http://www.apache.org" title="Apache Home">
+            <img src="image/sample.jpg" width="200" height="150" alt="Apache Foundation"/>
+        </a>
+
+        <div id="links">
+            <ul>
+                <li class="list"><a href="http://jquery.com/" title="jQuery Home">jQuery</a></li>
+                <li class="list"><a href="http://www.prototypejs.org" title="Prototype Home">Prototype</a></li>
+                <li class="list"><a href="http://groovy.codehaus.org/" title="Groovy Home">Groovy</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+<script type="text/javascript">
+    $("#links ul").append("<li class='list'><a href='http://google.com' title='Google Home'>Google</a></li>");
+    if (window.print) {
+        print("links list updated");
+    }
+</script>
+</body>
+</html>
