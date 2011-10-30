@@ -31,7 +31,7 @@ public class Runner {
     public static final String SCRIPT_TYPE_OPTION_DESCRIPTION = "Type of the script. for example: ruby, groovy";
     public static final String SCRIPT_TYPE_OPTION_ARG_NAME = "scriptType";
 
-    public static final String SYNTAX = "java jhttpcrowler.jar";
+    public static final String SYNTAX = "java -jar jhttpcrowler.jar";
     public static final String HEADER = "Jhttpcrowler command-line client, version 0.1";
     public static final String FOOTER = "--END--";
 
