@@ -8,7 +8,7 @@
     <version>0.1</version>
     <packaging>jar</packaging>
     <name>Java Web Crowling Engine</name>
-    <description>A lightweight wrapper on top of apache httpclient</description>
+    <description>Java-based web crowling engine with dynamic languages support</description>
 
     <repositories>
         <repository>
